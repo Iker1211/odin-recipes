@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(233, 213, 122);
+    font-family: 'Garamond', serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin-left: 400px;
+    margin-right: 450px;
+}
+
+h1 {
+   font-weight: 900;
+   font-size: 50px;
+}
+
+.title {
+    color: rgb(139, 102, 23)
+}
+
+a {
+    color: rgb(90, 52, 2);
+    font-weight: 700;
+}
