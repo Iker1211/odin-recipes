@@ -9,8 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 500px;
-    margin-left: 400px;
-    margin-right: 450px;
+    margin: 0 auto;
 }
 
 h1 {
