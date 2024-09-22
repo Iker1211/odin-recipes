@@ -1,15 +1,48 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(233, 213, 122);
     font-family: 'Garamond', serif;
 }
 
-.container {
+.container.recipes {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 500px;
     margin: 0 auto;
+}
+
+.container,
+.center {
+    align-items: left;
+    justify-content: left;
+    display: inline-block;
+    margin: 3px;
+    padding: 50px;
+}
+
+.container.left {
+    background-color: rgb(101, 67, 33);
+    color: rgb(245, 239, 221);
+    align-items: left;
+    justify-content: left;
+    display: inline-block;
+    margin: 3px;
+    padding: 50px;
+}
+
+.left {
+    color: rgb(230, 170, 120);
+}
+
+.left a {
+    color: inherit;
 }
 
 h1 {
@@ -19,6 +52,11 @@ h1 {
 
 .title {
     color: rgb(139, 102, 23)
+}
+
+.center li {
+   display: inline-block;
+   padding: 10px;
 }
 
 a {
